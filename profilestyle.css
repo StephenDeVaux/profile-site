@@ -7,6 +7,7 @@ body {
     background-image: url(https://images.unsplash.com/photo-1484503566934-9c106112488a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100%;
 }
 
@@ -21,6 +22,10 @@ body {
     overflow: hidden;
 }
 
+.container {
+    min-height: 100%;
+}
+
 .overlay-gradient {
     background-image: linear-gradient(to right bottom, rgba(10, 10, 10, 0.712), rgba(238, 234, 245, 0.3));
     background-size: cover;
@@ -28,21 +33,31 @@ body {
     height: 100%;
 }
 
-.toptobottom {
-    height: 100%;
+.nav-item {
+    background: rgb(200, 200, 200);
+    padding: 10px;
+    text-align: center;
 }
 
-
-/* body {
-    height: 100%;
+.profile-section {
+    padding-top: 25vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
 }
 
-h1 {
-    color: blue;
-    height: 100%;
+.profile-pic {
+    width: 200px;
+    border-radius: 20%;
+    border: 5px solid rgb(190, 188, 188);
+    margin: 0 20px 0 auto;
 }
 
-#firstsection {
-    background: url(https://images.unsplash.com/photo-1484503566934-9c106112488a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
-    background-size: cover;
-    /* height: 100%; */
+.profile-section h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}
+
+.profile-section h2 {
+    font-family: 'Baloo Tammudu 2', cursive;
+}
