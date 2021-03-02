@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import { Link, animateScroll as scroll, animateScroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 
 export default function Section({ title, subtitle, dark, id }) {
   return (
