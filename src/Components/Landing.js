@@ -38,10 +38,9 @@ export default function Landing({ title, subtitle, dark, id }) {
             to="section2"
             spy={true}
             smooth={true}
-            offset={-70}
             duration={500}
           >
-            About me
+            <span className="link__bring-forward">About me</span>
           </Link>
         </div>
       </div>

@@ -35,7 +35,6 @@ function App() {
                 to="section2"
                 spy={true}
                 smooth={true}
-                offset={-70}
                 duration={500}
               >
                 About me
@@ -45,7 +44,6 @@ function App() {
                   to="section3"
                   spy={true}
                   smooth={true}
-                  offset={-70}
                   duration={500}
                 >
                   Projects
@@ -55,7 +53,6 @@ function App() {
                   to="section4"
                   spy={true}
                   smooth={true}
-                  offset={-70}
                   duration={500}
                 >
                   Contact
