@@ -20,7 +20,7 @@ function App() {
               to="section1"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-43}
               duration={500}
             >
               Stephen DV
@@ -35,29 +35,32 @@ function App() {
                 to="section2"
                 spy={true}
                 smooth={true}
+                offset={-43}
                 duration={500}
               >
                 About me
               </Link>
-                <Link
-                  activeClass="active"
-                  to="section3"
-                  spy={true}
-                  smooth={true}
-                  duration={500}
-                >
-                  Projects
-                </Link>
-                <Link
-                  activeClass="active"
-                  to="section4"
-                  spy={true}
-                  smooth={true}
-                  duration={500}
-                >
-                  Contact
-                </Link> 
-                {/* <Link
+              <Link
+                activeClass="active"
+                to="section3"
+                spy={true}
+                smooth={true}
+                offset={-43}
+                duration={500}
+              >
+                Projects
+              </Link>
+              <Link
+                activeClass="active"
+                to="section4"
+                spy={true}
+                smooth={true}
+                offset={-43}
+                duration={500}
+              >
+                Contact
+              </Link>
+              {/* <Link
                   activeClass="active"
                   to="section5"
                   spy={true}

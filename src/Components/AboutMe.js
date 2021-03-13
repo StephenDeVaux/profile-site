@@ -1,6 +1,7 @@
 import React from "react";
 // import Button from "react-bootstrap/Button";
 // import { Link, animateScroll as scroll, animateScroll } from "react-scroll";
+import {ReactComponent as HeartLogo} from './Animations/heart.svg';
 
 export default function AboutMe({ title, subtitle, dark, id }) {
   return (
@@ -34,6 +35,7 @@ export default function AboutMe({ title, subtitle, dark, id }) {
           <li>Mech Eng</li>
           <li>Studing programming</li>
         </ul>
+        <HeartLogo className="heart-logo"/>
         {/* <Button onClick={() => scroll.scrollToTop()}>To top</Button> */}
       </div>
     </div>
