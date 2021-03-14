@@ -1,9 +1,10 @@
-<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 292.039 292.039" style="" xml:space="preserve">
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 292.039 292.039" style="enable-background:new 0 0 292.039 292.039;" xml:space="preserve">
 <g>
-	<path  data-duration="10" d="M263.225,29.885l-0.001-0.002c-1.58-1.683-39.301-41.052-92.365-26.767c-23.252,6.258-40.304,22.181-50.681,47.324
+	<path d="M263.225,29.885l-0.001-0.002c-1.58-1.683-39.301-41.052-92.365-26.767c-23.252,6.258-40.304,22.181-50.681,47.324
 		c-2.573,6.235-10.378,8.787-27.84,9.103c-0.798,0.015-1.595,0.051-2.383,0.088c-1.371,0.063-3.919,0.183-4.289-0.164
 		c-1.038-0.968-1.408-2.462-0.942-3.808c2.619-7.568,5.94-13.135,8.269-16.475c3.822-5.489,2.993-13.039-1.928-17.563l-6.189-5.688
 		l-4.743-4.421c-3.047-2.843-7.155-4.093-11.271-3.442c-4.11,0.654-7.625,3.118-9.645,6.764
@@ -19,11 +20,11 @@
 		C32.591,129.622,35.998,90.634,56.502,51.692l0.61-1.163c3.187-6.107,9.806-18.562,14.26-26.676l8.538,7.891
 		c-2.797,4.187-6.457,10.615-9.362,19.01c-2.404,6.948-0.484,14.675,4.889,19.685c4.988,4.651,10.898,4.375,15.215,4.176
 		c0.648-0.03,1.304-0.062,1.959-0.073c11.918-0.216,34.104-0.617,41.433-18.378c8.505-20.605,22.203-33.58,40.714-38.563
-		c44.465-11.967,76.183,21.114,77.53,22.548C254.699,42.72,254.57,46.775,252,49.188z" class="tHpiTdXP_0"></path>
+		c44.465-11.967,76.183,21.114,77.53,22.548C254.699,42.72,254.57,46.775,252,49.188z"/>
 	<path d="M64.071,129.851c-0.477-3.651-3.829-6.233-7.472-5.752c-3.653,0.474-6.23,3.819-5.756,7.471
 		c0.26,2.008,6.687,49.521,33.705,79.918c1.3,1.461,3.096,2.216,4.909,2.238c1.602,0.019,3.215-0.536,4.508-1.684
-		c2.753-2.448,3.001-6.663,0.554-9.417C70.268,175.344,64.13,130.302,64.071,129.851z" class="tHpiTdXP_1"></path>
-	<path d="M98.92999999999999,227.261A7.04,7.04 0,1,1 113.01,227.261A7.04,7.04 0,1,1 98.92999999999999,227.261" class="tHpiTdXP_2"></path>
+		c2.753-2.448,3.001-6.663,0.554-9.417C70.268,175.344,64.13,130.302,64.071,129.851z"/>
+	<circle cx="105.97" cy="227.261" r="7.04"/>
 </g>
 <g>
 </g>
@@ -55,4 +56,4 @@
 </g>
 <g>
 </g>
-<style data-made-with="vivus-instant">.tHpiTdXP_0{stroke-dasharray:2068 2070;stroke-dashoffset:2069;animation:tHpiTdXP_draw_0 7200ms linear 0ms infinite,tHpiTdXP_fade 7200ms linear 0ms infinite;}.tHpiTdXP_1{stroke-dasharray:210 212;stroke-dashoffset:211;animation:tHpiTdXP_draw_1 7200ms linear 0ms infinite,tHpiTdXP_fade 7200ms linear 0ms infinite;}.tHpiTdXP_2{stroke-dasharray:45 47;stroke-dashoffset:46;animation:tHpiTdXP_draw_2 7200ms linear 0ms infinite,tHpiTdXP_fade 7200ms linear 0ms infinite;}@keyframes tHpiTdXP_draw{100%{stroke-dashoffset:0;}}@keyframes tHpiTdXP_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}@keyframes tHpiTdXP_draw_0{11.11111111111111%{stroke-dashoffset: 2069}38.88888888888889%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes tHpiTdXP_draw_1{18.055555555555554%{stroke-dashoffset: 211}45.83333333333333%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes tHpiTdXP_draw_2{25%{stroke-dashoffset: 46}52.77777777777778%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}</style></svg>
+</svg>

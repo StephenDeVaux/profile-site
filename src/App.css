@@ -195,24 +195,3 @@ div:last-child {margin-bottom: 0;} */
   height: calc(100vh - 43px);
 }
 
-.about-logos{
-	height: 100px;
-  transition: all 0.3s;
-  fill: pink; 
-  border-radius: 100%;
-  padding: 3rem;
-}
-.heart-logo:hover{
-  height: 200px;
-  fill: black; 
-  background-color: blue;
-}
-
-.about__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.about__grid-left {
-  display: grid;
-  grid-template-columns: 5fr 1fr 1fr;
-}
