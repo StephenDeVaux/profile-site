@@ -1,9 +1,19 @@
 import React from "react";
 // import Button from "react-bootstrap/Button";
 // import { Link, animateScroll as scroll, animateScroll } from "react-scroll";
-import {ReactComponent as HeartLogo} from './Animations/heart.svg';
+import { ReactComponent as HeartLogo } from './Animations/heart.svg';
+import { ReactComponent as SkillLogo } from './Animations/candidate.svg';
+import { ReactComponent as WorkLogo } from './Animations/wrench.svg';
 
 export default function AboutMe({ title, subtitle, dark, id }) {
+
+  let gridClass = "about__grid"
+  function clickHandler () {
+    console.log('updating grid class')
+    gridClass = 'about__grid-left'
+  }
+
+
   return (
     <div className="section aboutme">
       <div className="section-content" id={id}>
@@ -14,7 +24,7 @@ export default function AboutMe({ title, subtitle, dark, id }) {
           <li>3D printing</li>
           <li>Family</li>
           <li>Nature / climate change</li>
-          <li>Science / Space </li> 
+          <li>Science / Space </li>
         </ul>
         <h2>Skills</h2>
         <ul>
@@ -35,7 +45,11 @@ export default function AboutMe({ title, subtitle, dark, id }) {
           <li>Mech Eng</li>
           <li>Studing programming</li>
         </ul>
-        <HeartLogo className="heart-logo"/>
+        <div className={gridClass}>
+          <HeartLogo onClick={clickHandler} className="about-logos heart-logo" />
+          <SkillLogo className="about-logos skill-logo" />
+          <WorkLogo className="about-logos work-logo" />
+        </div>
         {/* <Button onClick={() => scroll.scrollToTop()}>To top</Button> */}
       </div>
     </div>
