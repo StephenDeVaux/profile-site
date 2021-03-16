@@ -1,25 +1,95 @@
-.about__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
+.about-me {
+  background-color: grey;
+  width: 100%;
+  height: calc(100vh - 43px);
+
+  &__title {
+    text-align: center;
+    margin-top: 10vh;
+    // margin-bottom: 10vh;
+  }
+
+  &__grid {
+    transition: all 0.5s;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 60%;
+
+    &--left {
+      grid-template-columns: 4fr 1fr 1fr;
+    }
+    &--center {
+      grid-template-columns: 1fr 4fr 1fr;
+    }
+    &--right {
+      grid-template-columns: 1fr 1fr 4fr;
+    }
+  }
+
+  &__icon-box {
+    transition: all 0.5s;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    &:hover {
+      padding: 2.3rem;
+      background-color: rgba(255, 245, 238, 0.788);
+      &__logo {
+        fill: rgb(156, 35, 35);
+      }
+    }
+    &:hover .about-me__logo {
+      fill: rgb(156, 35, 35);
+    }
+  }
+
+  &__logo {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+    fill: pink;
+
+    &:hover {
+      // fill: rgb(156, 35, 35);
+    }
+  }
+
+  &__likes,
+  &__skills,
+  &__work {
+    transition: all 0.5s;
+    color: honeydew;
+  }
+
+  &--hidden {
+    display: none;
+  }
+
+  &__collapsed {
+    transition: all 1s;
+    height: 200px;
+  }
+
+  &__selected { 
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+    fill: pink;
+  }
 }
 
-.about-logos{
-    height: 100px;
-  width: 100px;
-  transition: all 0.3s;
-  fill: pink; 
-  /* border-radius: 100%; */
-  padding: 3rem;
+.skills {
+  transition: all 1s;
+  height: 50vh;
 }
-/* .heart-logo:hover{
-  height: 200px;
-  fill: black; 
-  background-color: blue;
-} */
 
-
-.about__grid-left {
-  display: grid;
-  grid-template-columns: 5fr 1fr 1fr;
+ul {
+  font-size: 1.5rem;
 }

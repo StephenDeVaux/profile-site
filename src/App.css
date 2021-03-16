@@ -33,9 +33,6 @@ html {
   height: 100vh;
 }
 
-.aboutme li {
-  font-size: 1rem;
-}
 .projects li {
   font-size: 1rem;
 }
@@ -174,11 +171,7 @@ div:last-child {margin-bottom: 0;} */
   /* z-index: -1; */
 }
 
-.aboutme {
-  background-color: grey;
-  width: 100%;
-  height: calc(100vh - 43px);
-}
+
 
 .projects {
   background-color: beige;
